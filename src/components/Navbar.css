@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color:#282d64 ;
+    padding: 0 5%;
+    width: 90%;
+    height: 100px;
+    justify-content: space-between;
+}
+.logo_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 80px;
+    
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-links li {
+    color: white;
+    cursor: pointer;
+}
+li:not(.login):hover{
+    color:#e52384 ;
+}
+.login{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login_options{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.options{
+    display: flex;
+    
+    flex-direction: column;
+}
+.link:hover{
+    border:1px solid #e52384;
+    border-radius: 5px;
+}
+.hide{
+    display: none;
+}

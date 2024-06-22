@@ -1,0 +1,53 @@
+.success_wrapper {
+    text-align: center;
+    padding: 40px 0;
+    background: #EBF0F5;
+    min-height: 80vh;
+    position: relative;
+}
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  max-width: 40%;
+  padding: 5%;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px #C8D0D8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.checkmark_wrapper{
+  background:#F8FAF5 ;
+  margin: auto;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+}
+.h1 {
+  color: black;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.p {
+  color: #404F5E;
+  
+}
+.checkmark {
+  color: #282d64;
+  font-size: 6rem;
+  line-height: 200px;
+  margin-left:-15px;
+}
+@media (max-width :480px) {
+  .card{
+    max-width: 80%;
+  }
+}
